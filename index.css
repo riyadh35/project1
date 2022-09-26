@@ -1,3 +1,134 @@
-body {
-    background: red;
-}
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .container {
+        /* background-color: dimgray; */
+        height: auto;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        line-height: 40px;
+    }
+
+    .logo {
+        display: flex;
+        font-size: 30px;
+        font-weight: 700;
+        color: #3d535f;
+        letter-spacing: 3px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    .logo:hover {
+        color: #7f00ff;
+    }
+
+    .navItems {
+        display: flex;
+    }
+
+    .navItems li {
+        list-style: none;
+        margin: 0 15px;
+    }
+
+    .navItems li a {
+        text-decoration: none;
+        color: #3d535f;
+        letter-spacing: 3px;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+
+    .navItems li:hover a,
+    .links a:hover i {
+        color: #7f00ff;
+    }
+
+    .links a {
+        font-size: 30px;
+        color: #3d535f;
+        margin: 20px 10px;
+    }
+
+    /* nav bar finish */
+
+    /* section start  */
+    .banner {
+        display: flex;
+        width: 100%;
+        height: calc(100vh - 80px);
+        justify-content: center;
+        align-items: center;
+        padding: 0 10%;
+        overflow: hidden;
+    }
+
+    .cols .topline {
+        display: flex;
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: #7f00ff;
+    }
+
+    h1 {
+        display: block;
+        font-size: 3em;
+        font-weight: 900;
+        color: #3d535f;
+    }
+
+    .multiText {
+        color: #7f00ff;
+        text-transform: capitalize;
+    }
+
+    p {
+        display: block;
+        width: 60%;
+        font-size: 1.2em;
+        color: #3d535f;
+    }
+
+    .btns {
+        width: 100%;
+        position: relative;
+        left: 20px;
+    }
+
+    button {
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: 400;
+        color: #fff;
+        background-color: #3d535f;
+        padding: 8px 14px;
+        margin: 40px 5px;
+        text-transform: capitalize;
+        box-shadow: 0 10px 5px rgba(0, 0, 0, 0.697);
+
+    }
+
+    button:hover {
+        background-color: #7f00ff;
+    }
+
+    .imgbox {
+        position: relative;
+        right: 120px;
+        width: 100%;
+        height: 100%;
+    }

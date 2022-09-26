@@ -5,12 +5,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my Portfolio</title>
+    <title>Document</title>
+    <!-- CSS link  -->
     <link rel="stylesheet" href="./index.css">
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/ad1c705c3a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>hi Iam Riyad Hossain</h1>
+    <header class="container">
+        <!-- nav bar -->
+        <nav>
+            <div class="logo">riyad</div>
+            <ul class="navItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">skills</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="links">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+        <section class="banner">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multiText"></span></h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero architecto nam at mollitia deleniti
+                    sequi assumenda tempore, quis cumque facilis.</p>
+                <div class="btns">
+                    <button>Download CV</button>
+                    <button>Hire me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="./riyad111-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- js link  -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <!-- js start  -->
+        <script>
+            var typingEffect = new Typed(".multiText", {
+                strings: ["Riyad", "Learner", "Designer", "Student"],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 80,
+                backDelay: 1500,
+            })
+        </script>
+    </header>
+</body>
+
+</html>
 
 
 
@@ -23,18 +74,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-    <!-- javaScript link  -->
-    <script src="script.js"></script>
+<!-- javaScript link  -->
+<script src="script.js"></script>
 </body>
 
 </html>
